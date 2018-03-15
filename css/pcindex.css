@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none
+}
+
+.pc .nav {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    text-align: center;
+    z-index: 10;
+}
+
+.pc .nav .language {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #ff6633;
+    font-size: 12px;
+    padding: 0 10px;
+    border-radius: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.pc .nav .menu {
+    color: #ffffff;
+    font-size: 14px;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    position: relative;
+    top: -85px;
+}
+
+.pc .nav .menu span {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ff6633;
+}
+
+.pc .nav .logo {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 100%;
+    position: relative;
+}
+
+.pc .nav .logo div {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    background-color: #ff6633;
+    border-radius: 100%;
+}
+
+.pc .nav .logo div img {
+    width: 60px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+}
+
+.pc .nav .search {
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.pc .nav .search input {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    border: 0;
+    background-color: #999999;
+    color: #ffffff;
+    outline: none;
+}
+
+.pc .nav .search div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #cccccc;
+    border-radius: 100%;
+}
+
+.pc .nav .search div img {
+    position: absolute;
+    width: 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pc .banner {
+    margin-top: 60px;
+    background-color: #000000;
+}
+
+.pc .banner .sw-slide img {
+    width: 100%;
+}
+
+.pc .product {
+    background-color: #000000;
+    padding: 0 50px;
+    height: 380px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pc .title.main {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pc .title.main h2 {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    color: #ff6633;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.pc .title.main img {
+    width: 250px;
+    position: relative;
+    top: -8px;
+}
+
+.pc .product ul li {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.pc .product ul li div {
+    width: 180px;
+    height: 250px;
+    display: inline-block;
+    background-color: #ff6633;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.pc .product ul li div img {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.pc .product ul li div p {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.pc .more {
+    font-size: 16px;
+    color: #ff6633;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+    font-weight: 100;
+}
+
+.pc .aboutus {
+    height: 300px;
+    background-color: #663300;
+}
+
+.pc .aboutus img {
+    float: left;
+    width: 450px;
+    height: 300px;
+}
+
+.pc .aboutus div {
+    margin-left: 450px;
+    padding: 20px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.pc .aboutus div h2 {
+    color: #ff6633;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.pc .aboutus div p {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.pc .culture {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.pc .culture ul {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.pc .culture ul li {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pc .culture ul li img {
+    height: 100px;
+}
+
+.pc .culture ul li p {
+    color: #ff6633;
+    font-size: 20px;
+}
+
+.pc .culture ul li span {
+    width: 70%;
+    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+}
+
+.pc .link {
+    background-color: #663300;
+    overflow: hidden;
+    position: relative;
+}
+
+.pc .link div {
+    margin-right: 395px;
+    padding: 20px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.pc .link div p {
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.pc .link img {
+    position: absolute;
+    height: 200px;
+    right: 0;
+    top: 0;
+}
+
+.pc .news {
+    background-color: #000000;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.pc .news .pic {
+    float: left;
+    height: 300px;
+}
+
+.pc .news ul {
+    margin-left: 440px;
+    padding: 20px;
+    height: 300px;
+}
+
+.pc .news ul li {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+.pc .news ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: coral;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    border-radius: 100%;
+}
+
+.pc .news ul li p {
+    margin-right: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ff6633;
+}
+
+.pc .news ul li span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #333333;
+}
+
+.pc .footer {
+    background-color: #ff6633;
+    overflow: hidden;
+    height: 40px;
+}
+
+.pc .footer p {
+    color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+
+.breadcrumb {
+    background-color: #000000;
+}
+
+a.list-group-item:before,
+.breadcrumb>li+li:before {
+    color: #ff6633;
+    content: " > ";
+    padding: 0 5px;
+}
+
+.breadcrumb>li a {
+    color: #ffffff;
+}
+
+.breadcrumb>.active {
+    color: #ff6633;
+}
+
+.pc .crumb {
+    height: 38px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pc .wrap {
+    margin: 10px;
+}
+
+.pc .wrap .sideleft {
+    background-color: #663300;
+    width: 200px;
+    height: 900px;
+    float: left;
+}
+
+.pc .wrap .sideright {
+    height: 900px;
+    margin-left: 210px;
+}
+
+.list-group-item,
+.pc .wrap a:link,
+.pc .wrap a:visited,
+.pc .wrap a:hover,
+.pc .wrap a:active {
+    background-color: transparent;
+    border: transparent;
+}
+
+.list-group-item.active {
+    z-index: inherit;
+}
+
+a.list-group-item {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+a.list-group-item:visited,
+a.list-group-item:link {
+    color: #cccccc;
+}
+
+a.list-group-item:hover,
+a.list-group-item.active,
+a.list-group-item.active:hover {
+    color: #ff6633;
+}
+
+li.list-group-item.active,
+li.list-group-item.active:focus,
+li.list-group-item.active:hover {
+    background-color: #ff6633;
+    text-align: center;
+    font-size: 18px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pc .wrap .sideright .pagecontent {
+    background-color: #333333;
+    height: 810px;
+}
+
+.pc .wrap .sideright .pagenum {
+    height: 90px;
+}
+
+.pc .wrap .sideright .pagetitle {
+    padding: 10px 40px 0;
+    height: 55px;
+}
+
+.pc .wrap .sideright .pagetitle p {
+    color: #ff6633;
+    padding: 0 0 5px 10px;
+    border-bottom: 2px solid #cccccc;
+}
