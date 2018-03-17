@@ -1,0 +1,10 @@
+@charset "utf-8";
+body {
+	background-color: #000000;
+}
+
+@media only screen and (min-width:992px){
+body {
+	/* [disabled]background-color: indigo; */
+}
+}
